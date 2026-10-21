@@ -2,6 +2,19 @@
 
 Public material for the coding exercises of BMAI weekend 4 (23–24 October 2026).
 
+## Pufferfish autoencoder (Friday 08:15, lecture demo)
+
+One Colab notebook, nothing to install:
+[`pufferfish-autoencoder/pufferfish_autoencoder.ipynb`](pufferfish-autoencoder/pufferfish_autoencoder.ipynb),
+or open it straight in Colab:
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-autoencoder/pufferfish_autoencoder.ipynb
+
+It draws 5000 made-up pufferfish pictures, each from three numbers (where the fish sits, x and y, and how
+puffed up it is, m), trains a plain autoencoder that squeezes every picture into three numbers of its own,
+and ends with a cell where you pick a fish, change its three numbers with sliders, and watch the decoder
+draw the new fish. Training takes a little over a minute on Colab.
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:
