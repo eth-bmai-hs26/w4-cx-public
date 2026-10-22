@@ -67,7 +67,7 @@ A prototype, complete, with nothing to fill in: the notebook is its own solution
 extension's thirty sentences gets two numbers of its own, a sentence gets their average, and a wide network
 turns it into three numbers; the words land in three groups and the sentences in three clusters.
 
-https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings_solutions.ipynb
 
 ## Keeping this list true
 
