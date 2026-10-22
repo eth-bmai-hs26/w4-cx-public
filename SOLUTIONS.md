@@ -54,6 +54,14 @@ The exercise, five tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion.ipynb
 
+## Text embeddings from scratch (beside the happy and sad extension)
+
+A prototype, complete, with nothing to fill in: the notebook is its own solution. Every word of the
+extension's thirty sentences gets two numbers of its own, a sentence gets their average, and a wide network
+turns it into three numbers; the words land in three groups and the sentences in three clusters.
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
+
 ## Keeping this list true
 
 Every notebook here is a byte-for-byte copy of its master in the course's private repository, at the same
