@@ -96,6 +96,13 @@ tasks, each marked with a target sign, seven lines in all: the forward process, 
 the true previous picture that training compares with, the three calls of one training step, and one step
 of the generation. Training takes well under a minute.
 
+After the exercise, and only then: the extension, a complete coding example with a third face, surprised, and a
+sentence as the prompt, read by BERT, which picks the face to draw. Its code gives the exercise's answers away:
+[`happy-sad-diffusion/happy_sad_diffusion_extension.ipynb`](happy-sad-diffusion/happy_sad_diffusion_extension.ipynb),
+in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension.ipynb
+
 ## Text embeddings from scratch (beside the happy and sad extension)
 
 An exercise in one Colab notebook, nothing to install:
@@ -111,6 +118,20 @@ draws where the words landed and every sentence as a point in 3D, and places you
 You do three tasks, each marked with a target sign, six lines in all: the two layers of the wide network, the
 average of the words' numbers, and the three calls of one training step. Every task has a hint, folded until
 you click it.
+
+## A tiny stable diffusion (Friday 14:00, after the exercises)
+
+After both exercises above, and only then: a complete coding example whose code gives their answers away, as a
+warning at its top says:
+[`tiny-stable-diffusion/tiny_stable_diffusion.ipynb`](tiny-stable-diffusion/tiny_stable_diffusion.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
+
+It puts the two notebooks together the way Stable Diffusion is built. The text embedder of the text embeddings
+notebook is trained first and then frozen; the denoiser of the happy and sad extension then learns from the faces,
+each with a caption, a sentence that describes its expression, read through the frozen text embedder as three
+numbers. Then a word or a sentence of your own, "happy" or "a smiling child", becomes a face. Training takes well
+under a minute.
 
 ## Manifold games (Friday 09:00)
 

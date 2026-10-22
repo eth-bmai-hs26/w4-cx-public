@@ -86,6 +86,14 @@ The exercise, three tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
 
+## A tiny stable diffusion (Friday 14:00, after the exercises)
+
+Complete, with nothing to fill in: the notebook is its own solution. The text embedder of the text embeddings
+notebook and the denoiser of the happy and sad extension, put together as Stable Diffusion is: a word or a
+sentence becomes a face. Its code holds the answers of both exercises.
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
+
 ## Keeping this list true
 
 Every notebook here is a byte-for-byte copy of its master in the course's private repository, at the same
