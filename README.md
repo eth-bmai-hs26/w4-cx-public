@@ -96,12 +96,17 @@ tasks, each marked with a target sign, seven lines in all: the forward process, 
 the true previous picture that training compares with, the three calls of one training step, and one step
 of the generation. Training takes well under a minute.
 
-After the exercise, and only then: the extension, a complete coding example with a third face, surprised, and a
-sentence as the prompt, read by BERT, which picks the face to draw. Its code gives the exercise's answers away:
+After the exercise: its extension, an exercise of its own, with a third face, surprised, and a sentence as the
+prompt, read by BERT, which picks the face to draw. Its folded cells reuse the first exercise's code, answers
+included, so do that one first:
 [`happy-sad-diffusion/happy_sad_diffusion_extension.ipynb`](happy-sad-diffusion/happy_sad_diffusion_extension.ipynb),
 in Colab at
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension.ipynb
+
+You do five tasks, one line each: the denoiser's first layer, which now reads three more numbers, the vector of
+`[CLS]` that stands for the whole sentence, the classifier, its loss, and the one-hot of the best score. Tasks 3
+and 4 have the same kinds of lines as the sunrise season classifier above.
 
 ## Text embeddings from scratch (beside the happy and sad extension)
 
@@ -119,10 +124,10 @@ You do three tasks, each marked with a target sign, six lines in all: the two la
 average of the words' numbers, and the three calls of one training step. Every task has a hint, folded until
 you click it.
 
-## A tiny stable diffusion (Friday 14:00, after the exercises)
+## A tiny stable diffusion (Friday 14:00, after the exercises above)
 
-After both exercises above, and only then: a complete coding example whose code gives their answers away, as a
-warning at its top says:
+An exercise to do after the happy and sad faces, their extension and the text embeddings: its folded cells reuse
+their code, answers included, as its first cell says:
 [`tiny-stable-diffusion/tiny_stable_diffusion.ipynb`](tiny-stable-diffusion/tiny_stable_diffusion.ipynb), in Colab at
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
@@ -130,8 +135,10 @@ warning at its top says:
 It puts the two notebooks together the way Stable Diffusion is built. The text embedder of the text embeddings
 notebook is trained first and then frozen; the denoiser of the happy and sad extension then learns from the faces,
 each with a caption, a sentence that describes its expression, read through the frozen text embedder as three
-numbers. Then a word or a sentence of your own, "happy" or "a smiling child", becomes a face. Training takes well
-under a minute.
+numbers. Then a word or a sentence of your own, "happy" or "a smiling child", becomes a face. You do four tasks,
+five lines in all, the lines that make it Stable Diffusion: the cut of the prompt to between 0 and 1, the frozen
+text embedder reading the captions once, a caption of its own expression for each face, and the text embedder's
+step in front of the generation. Training takes well under a minute.
 
 ## Manifold games (Friday 09:00)
 

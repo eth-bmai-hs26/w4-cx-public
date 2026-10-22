@@ -63,14 +63,20 @@ The solution, the complete notebook:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_solutions.ipynb
 
-The extension, complete: a third face, a one-hot prompt, and a sentence read by BERT. It repeats the
-exercise's code, so it holds the exercise's answers too:
-
-https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension.ipynb
-
 The exercise, five tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion.ipynb
+
+## Three faces and BERT, the extension (Friday 14:00, after the happy and sad exercise)
+
+A third face, a one-hot prompt, and a sentence read by BERT. The solution, the complete notebook, which also
+holds the first exercise's answers:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension_solutions.ipynb
+
+The exercise, five tasks:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension.ipynb
 
 ## Text embeddings from scratch (beside the happy and sad extension)
 
@@ -86,11 +92,15 @@ The exercise, three tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
 
-## A tiny stable diffusion (Friday 14:00, after the exercises)
+## A tiny stable diffusion (Friday 14:00, after the three exercises above)
 
-Complete, with nothing to fill in: the notebook is its own solution. The text embedder of the text embeddings
-notebook and the denoiser of the happy and sad extension, put together as Stable Diffusion is: a word or a
-sentence becomes a face. Its code holds the answers of both exercises.
+The text embedder of the text embeddings notebook and the denoiser of the happy and sad extension, put
+together as Stable Diffusion is: a word or a sentence becomes a face. The solution, the complete notebook,
+which also holds answers of the three exercises it builds on:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion_solutions.ipynb
+
+The exercise, four tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
 
