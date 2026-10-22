@@ -40,6 +40,16 @@ The worked example, the season of a sunrise, complete, with no solution of its o
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_season_classifier.ipynb
 
+## Two grasshoppers fit a line (Friday 08:15)
+
+The solution, the complete notebook:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/grasshopper-gradient-descent/grasshopper_gradient_descent_solutions.ipynb
+
+The exercise, three tasks:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/grasshopper-gradient-descent/grasshopper_gradient_descent.ipynb
+
 ## Apples and oranges, a conditional autoencoder (Friday 10:00)
 
 Complete, with nothing to fill in: the notebook is its own solution.
