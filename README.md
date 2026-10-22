@@ -53,6 +53,16 @@ tasks, each marked with a target sign, seven lines in all: the forward process, 
 the true previous picture that training compares with, the three calls of one training step, and one step
 of the generation. Training takes well under a minute.
 
+An extension sits beside it, complete, with nothing to fill in:
+[`happy-sad-diffusion/happy_sad_diffusion_extension.ipynb`](happy-sad-diffusion/happy_sad_diffusion_extension.ipynb),
+in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension.ipynb
+
+It adds a third face, surprised, so the prompt becomes a one-hot of three numbers, and then takes the prompt as a
+sentence: BERT turns the sentence into 768 numbers, and one linear layer, trained on 30 short descriptions, picks
+the face. It downloads BERT once (440 MB) and runs in under a minute on a laptop.
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:
