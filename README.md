@@ -28,9 +28,12 @@ points at the matching lines of the worked example:
 An exercise in one Colab notebook, nothing to install. Two grasshoppers learn the line that predicts the
 hour of three sunrise photos from where the sun stands, by gradient descent: each hops a little to measure
 the slope of the average loss under its feet, and jumps against it, until the ground is flat under both.
-You do three tasks, each marked with a target sign, seven lines in all: the average loss of a line, the
-two slopes and the two jumps. Every task has a hint, folded until you click it. The loop takes well under
-a second and prints the same numbers as the lecture's click-through page. The exercise:
+You do three tasks, each marked with a target sign, ten short lines in all: the average loss of a line,
+a function that measures the two slopes, the gradient, and the loop that calls it and makes the two
+jumps. Every task has a hint, folded until you click it, and a cell below it that checks your lines and
+prints PASS or NOT YET. The loop takes well under a second and prints the same numbers as the lecture's
+click-through page, and the last cell says in large letters whether your grasshoppers found the line.
+The exercise:
 [`grasshopper-gradient-descent/grasshopper_gradient_descent.ipynb`](grasshopper-gradient-descent/grasshopper_gradient_descent.ipynb), in Colab at
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/grasshopper-gradient-descent/grasshopper_gradient_descent.ipynb
