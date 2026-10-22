@@ -21,7 +21,11 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pu
 
 ## Sunrise CNN (Friday 08:15)
 
-The exercise, the time of day of a sunrise, four tasks. Its solution is not in this repository yet:
+The solution, the complete notebook:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression_solutions.ipynb
+
+The exercise, the time of day of a sunrise, four tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression.ipynb
 
