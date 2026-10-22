@@ -2,6 +2,27 @@
 
 Public material for the coding exercises of BMAI weekend 4 (23–24 October 2026).
 
+## What time is it? A CNN reads a sunrise (Friday 08:15)
+
+An exercise and its worked example, two Colab notebooks, nothing to install. Both draw 3000 synthetic
+sunrises with the generator of the Sunrise Machine (Friday 09:00), written by Frederick Puls, each from
+two numbers, where the sun stands (the time of the year) and how high (the time of the day), and train a
+small convolutional network on them.
+
+The worked example, complete: the network tells the season of a sunrise, winter, spring or autumn, or
+summer. Only the network and its training show their code:
+[`sunrise-cnn/sunrise_season_classifier.ipynb`](sunrise-cnn/sunrise_season_classifier.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_season_classifier.ipynb
+
+The exercise: the same network tells the time of the day. You do four tasks, each marked with a target
+sign, seven lines in all: the two convolution blocks of the network, the head that gives one number, the
+loss, and the three calls of one training step. Every task has a hint, folded until you click it, that
+points at the matching lines of the worked example:
+[`sunrise-cnn/sunrise_time_regression.ipynb`](sunrise-cnn/sunrise_time_regression.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression.ipynb
+
 ## Pufferfish autoencoder (Friday 08:15)
 
 An exercise in one Colab notebook, nothing to install:
