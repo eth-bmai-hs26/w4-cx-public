@@ -22,6 +22,20 @@ with the same three kinds of lines:
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-autoencoder/pytorch_example.ipynb
 
+## Happy and sad faces from noise (Friday 14:00)
+
+A tiny diffusion model in one Colab notebook, nothing to install:
+[`happy-sad-diffusion/happy_sad_diffusion.ipynb`](happy-sad-diffusion/happy_sad_diffusion.ipynb),
+or open it straight in Colab:
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion.ipynb
+
+Every picture is a face of 9 x 9 pixels, happy or sad, and the prompt is a single bit: 0 asks for a happy
+face, 1 for a sad one. The notebook blends faces into noise, trains a small network to estimate the picture
+one step earlier, and then generates new faces from pure noise, step by step, as on the slides. You fill in
+three lines, each marked with a target sign: the forward process, the true previous picture that training
+compares with, and one step of the generation. Training takes well under a minute.
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:
