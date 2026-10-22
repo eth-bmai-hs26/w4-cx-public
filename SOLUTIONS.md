@@ -19,6 +19,13 @@ The worked example beside it, complete, with no solution of its own:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-autoencoder/pytorch_example.ipynb
 
+## Pufferfish variational autoencoder (Friday 08:15)
+
+Complete, a lecture demo with nothing to fill in: the same fish as the pufferfish exercise, trained as a
+variational autoencoder, ending in the same sliders.
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-vae/pufferfish_vae.ipynb
+
 ## Sunrise CNN (Friday 08:15)
 
 The solution, the complete notebook:
