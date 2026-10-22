@@ -74,6 +74,22 @@ tasks, each marked with a target sign, seven lines in all: the forward process, 
 the true previous picture that training compares with, the three calls of one training step, and one step
 of the generation. Training takes well under a minute.
 
+## Text embeddings from scratch (beside the happy and sad extension)
+
+An exercise in one Colab notebook, nothing to install:
+[`text-embeddings/text_embeddings.ipynb`](text-embeddings/text_embeddings.ipynb), or open it straight in Colab:
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
+
+The extension of the happy and sad notebook reads a sentence with BERT. This notebook builds a tiny text
+embedder of its own from the same thirty made-up sentences: every word gets two numbers of its own, a sentence
+gets the average of its words' numbers, and a wide network turns that average into three numbers, how happy,
+sad and surprised the sentence is. Training finds all of these numbers in a few seconds. Then the notebook
+draws where the words landed and every sentence as a point in 3D, and places your own sentences among them.
+You do three tasks, each marked with a target sign, six lines in all: the two layers of the wide network, the
+average of the words' numbers, and the three calls of one training step. Every task has a hint, folded until
+you click it.
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:

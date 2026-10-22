@@ -63,11 +63,17 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/ha
 
 ## Text embeddings from scratch (beside the happy and sad extension)
 
-A prototype, complete, with nothing to fill in: the notebook is its own solution. Every word of the
-extension's thirty sentences gets two numbers of its own, a sentence gets their average, and a wide network
-turns it into three numbers; the words land in three groups and the sentences in three clusters.
+Every word of the extension's thirty sentences gets two numbers of its own, a sentence gets their average,
+and a wide network turns it into three numbers; the words land in three groups and the sentences in three
+clusters.
+
+The solution, the complete notebook:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings_solutions.ipynb
+
+The exercise, three tasks:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
 
 ## Keeping this list true
 
