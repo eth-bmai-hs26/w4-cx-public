@@ -15,10 +15,10 @@ summer. Only the network and its training show their code:
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_season_classifier.ipynb
 
-The exercise: the same network tells the time of the day. You do four tasks, each marked with a target
-sign, seven lines in all: the two convolution blocks of the network, the head that gives one number, the
-loss, and the three calls of one training step. Every task has a hint, folded until you click it, that
-points at the matching lines of the worked example:
+The exercise: the same network tells the time of the day. You do five tasks, each marked with a target
+sign, eight lines in all: the two convolution blocks of the network, the head that gives one number, the
+optimizer, the loss, and the three calls of one training step. Every task has a hint, folded until you
+click it, that points at the matching lines of the worked example:
 [`sunrise-cnn/sunrise_time_regression.ipynb`](sunrise-cnn/sunrise_time_regression.ipynb), in Colab at
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression.ipynb

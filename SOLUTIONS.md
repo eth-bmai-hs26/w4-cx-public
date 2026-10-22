@@ -33,7 +33,7 @@ The solution, the complete notebook:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression_solutions.ipynb
 
-The exercise, the time of day of a sunrise, four tasks:
+The exercise, the time of day of a sunrise, five tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression.ipynb
 
