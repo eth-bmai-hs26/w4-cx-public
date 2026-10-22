@@ -140,6 +140,18 @@ five lines in all, the lines that make it Stable Diffusion: the cut of the promp
 text embedder reading the captions once, a caption of its own expression for each face, and the text embedder's
 step in front of the generation. Training takes well under a minute.
 
+## Face aging (Friday 11:00)
+
+An exercise in one Colab notebook. You lead product at a photo app that wants a "show me at 70" button. A photo is
+196,608 numbers, and faces sit on a thin manifold among them. You squeeze faces through the VAE of Stable Diffusion
+and decode them back, blend two faces in pixels and in codes, and see that a random code decodes to stained glass.
+You fill in four one-line gaps, each marked with a target sign and each with a folded hint: the encoder, the decoder,
+the blend of two codes, and the edit that ages a face. The last part, optional, ages a real face with FADING; it needs
+a GPU with more than 4 GB and about 4.6 GB of downloads. Parts 1 to 3 run on a free Colab CPU.
+[`aging/face_aging.ipynb`](aging/face_aging.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/aging/face_aging.ipynb
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:
