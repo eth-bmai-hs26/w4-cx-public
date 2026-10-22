@@ -22,6 +22,22 @@ with the same three kinds of lines:
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-autoencoder/pytorch_example.ipynb
 
+## Apples and oranges, a conditional autoencoder (Friday 10:00)
+
+One Colab notebook, nothing to install:
+[`apple-orange-autoencoder/apple_orange_autoencoder.ipynb`](apple-orange-autoencoder/apple_orange_autoencoder.ipynb),
+or open it straight in Colab:
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/apple-orange-autoencoder/apple_orange_autoencoder.ipynb
+
+Every picture is an apple (a red circle) or an orange (an orange circle) somewhere in the frame, and a label,
+0 or 1, says which. The encoder squeezes a picture and its label into 16 numbers, and the decoder rebuilds the
+picture from those numbers and the label, so flipping the label should turn an apple into an orange in the
+same place. The notebook trains the same autoencoder twice, without and with a penalty on the length of the
+code that stands in for the KL term of a variational autoencoder, counts how many of 5000 flips work with
+each, and ends with a cell where you flip any fruit yourself. The two trainings together take about 20
+seconds on a laptop, and longer on Colab.
+
 ## Happy and sad faces from noise (Friday 14:00)
 
 A tiny diffusion model in one Colab notebook, nothing to install:
