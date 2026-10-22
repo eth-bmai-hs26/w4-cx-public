@@ -48,9 +48,10 @@ or open it straight in Colab:
 
 Every picture is a face of 9 x 9 pixels, happy or sad, and the prompt is a single bit: 0 asks for a happy
 face, 1 for a sad one. The notebook blends faces into noise, trains a small network to estimate the picture
-one step earlier, and then generates new faces from pure noise, step by step, as on the slides. You fill in
-three lines, each marked with a target sign: the forward process, the true previous picture that training
-compares with, and one step of the generation. Training takes well under a minute.
+one step earlier, and then generates new faces from pure noise, step by step, as on the slides. You do five
+tasks, each marked with a target sign, seven lines in all: the forward process, the network's missing layer,
+the true previous picture that training compares with, the three calls of one training step, and one step
+of the generation. Training takes well under a minute.
 
 ## Manifold games (Friday 09:00)
 
