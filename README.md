@@ -74,6 +74,22 @@ tasks, each marked with a target sign, seven lines in all: the forward process, 
 the true previous picture that training compares with, the three calls of one training step, and one step
 of the generation. Training takes well under a minute.
 
+## Face aging with your own VAE
+
+One Colab notebook, nothing to install:
+[`face-aging-vae/face_aging_vae.ipynb`](face-aging-vae/face_aging_vae.ipynb),
+or open it straight in Colab:
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/face-aging-vae/face_aging_vae.ipynb
+
+Stable Diffusion never works on pixels: its VAE turns a 512 x 512 photo into a 64 x 64 x 4 latent and back.
+You write the four layers that VAE is built from, eight gaps marked TODO: the residual block, the down- and
+upsampling, and the self-attention. A check cell tests each layer. The notebook then builds the whole VAE from
+your layers, loads the official Stable Diffusion v1.5 weights into it, and checks that it computes the same
+numbers as the original, to within 1e-4. The last part, optional, ages a face with FADING, a face-aging model
+built on Stable Diffusion, using your VAE to go between pixels and latents, on a demo face or a photo you
+upload. It needs a GPU runtime and downloads 4.6 GB of weights, and its slow step can take half an hour.
+
 ## Manifold games (Friday 09:00)
 
 Two browser apps, no installation needed. Open them from the course page, or locally with any static file server:
