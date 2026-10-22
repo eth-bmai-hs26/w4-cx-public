@@ -69,6 +69,16 @@ turns it into three numbers; the words land in three groups and the sentences in
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings.ipynb
 
+## Face aging with your own VAE
+
+The solution, the complete notebook:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/face-aging-vae/face_aging_vae_solutions.ipynb
+
+The exercise, eight gaps in the four layers of the VAE:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/face-aging-vae/face_aging_vae.ipynb
+
 ## Keeping this list true
 
 Every notebook here is a byte-for-byte copy of its master in the course's private repository, at the same
