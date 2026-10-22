@@ -104,6 +104,20 @@ The exercise, four tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
 
+## Face aging with your own VAE (Friday 14:30)
+
+The solution, the complete notebook:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/face-aging-vae/face_aging_vae_solutions.ipynb
+
+The exercise, eight gaps in the four layers of the VAE:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/face-aging-vae/face_aging_vae.ipynb
+
+Not at the same path in the private repository: the masters are `aging/exercise_solution.ipynb` and
+`aging/exercise.ipynb`, both built by `aging/scripts/build_exercise_notebooks.py`, and `pipeline.gif` is
+`aging/figures/pipeline.gif`, drawn by `aging/scripts/draw_pipeline_doodle.py`.
+
 ## Keeping this list true
 
 Every notebook here is a byte-for-byte copy of its master in the course's private repository, at the same
