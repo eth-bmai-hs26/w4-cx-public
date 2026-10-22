@@ -21,8 +21,9 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pu
 
 ## Pufferfish variational autoencoder (Friday 08:15)
 
-Complete, a lecture demo with nothing to fill in: the same fish as the pufferfish exercise, trained as a
-variational autoencoder, ending in the same sliders.
+Complete, nothing to fill in: the same fish as the pufferfish exercise, trained as a variational
+autoencoder, ending in the same sliders. A coding example for after the exercise, whose answers its code
+gives away (a warning at its top says so); the course site links it as a demo, after the exercise.
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-vae/pufferfish_vae.ipynb
 

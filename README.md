@@ -58,6 +58,13 @@ with the same three kinds of lines:
 
     https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-autoencoder/pytorch_example.ipynb
 
+After the exercise, and only then: the same fish trained as a variational autoencoder, a complete coding
+example whose three sliders, in most runs, each do one thing: move the fish sideways, move it up and
+down, or puff it up. Its code gives the exercise's answers away, as a warning at its top says:
+[`pufferfish-vae/pufferfish_vae.ipynb`](pufferfish-vae/pufferfish_vae.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pufferfish-vae/pufferfish_vae.ipynb
+
 ## Apples and oranges, a conditional autoencoder (Friday 10:00)
 
 One Colab notebook, nothing to install:
