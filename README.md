@@ -61,7 +61,7 @@ in Colab at
 
 It adds a third face, surprised, so the prompt becomes a one-hot of three numbers, and then takes the prompt as a
 sentence: BERT turns the sentence into 768 numbers, and one linear layer, trained on 30 short descriptions, picks
-the face. It downloads BERT once (440 MB) and runs in under a minute on a laptop.
+the face. It downloads BERT once (440 MB) and runs in about 35 seconds on Colab, the download included.
 
 ## Manifold games (Friday 09:00)
 
