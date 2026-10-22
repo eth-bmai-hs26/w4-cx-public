@@ -86,9 +86,9 @@ Stable Diffusion never works on pixels: its VAE turns a 512 x 512 photo into a 6
 You write the four layers that VAE is built from, eight gaps marked TODO: the residual block, the down- and
 upsampling, and the self-attention. A check cell tests each layer. The notebook then builds the whole VAE from
 your layers, loads the official Stable Diffusion v1.5 weights into it, and checks that it computes the same
-numbers as the original, to within 1e-4. The last part, optional, ages a face with FADING, a face-aging model
-built on Stable Diffusion, using your VAE to go between pixels and latents, on a demo face or a photo you
-upload. It needs a GPU runtime and downloads 4.6 GB of weights, and its slow step can take half an hour.
+numbers as the original, to within 1e-4. The last part ages a face with FADING, a face-aging model built on
+Stable Diffusion, using your VAE to go between pixels and latents, on a demo face or a photo you upload. It
+needs a GPU runtime (an A100) and downloads 4.6 GB of weights, and its slow step takes about 4 minutes.
 
 ## Manifold games (Friday 09:00)
 
