@@ -107,16 +107,18 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/ti
 ## Stable Diffusion: your own sampling loop (Friday 14:00)
 
 Written by Sofi Mousia: the real Stable Diffusion 1.5, pretrained, with its sampling loop written by hand.
-The solution, the complete notebook, with the pictures of her own run on a Colab T4:
-
-https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/cx4_stable_diffusion_sol.ipynb
-
 The exercise, ten one-line gaps:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/cx4_stable_diffusion.ipynb
 
-Not on the private repository's main: both masters are on its branch `stableDiff`, at the same paths. Never
-merge that branch, which deletes `vae_sunrises/`.
+Its solution stays in the private repository, on Carlos's word of 2026-10-23 that only the students' version
+be published: `cx4_stable_diffusion_sol.ipynb` on the branch `stableDiff` of w4-cx-private, with the pictures
+of her own run on a Colab T4. Colab asks for access to private GitHub repositories before it opens it:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-private/blob/stableDiff/cx4_stable_diffusion_sol.ipynb
+
+The exercise's master is on that branch too, at the same path. Never merge that branch, which deletes
+`vae_sunrises/`.
 
 ## Face aging with your own VAE (Friday 14:30)
 
