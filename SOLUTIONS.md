@@ -161,7 +161,7 @@ since 2026-10-23 the follow-up to the cats and dogs on the course site. The exer
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/adversarial-attacks-cifar/adversarial_attacks_cx.ipynb
 
-Its solution stays in the private repository until Carlos says otherwise, as Sofi Mousia's does:
+Its solution stays in the private repository, on Carlos's word of 2026-10-23, as Sofi Mousia's does:
 `adversarial-attacks-cifar/adversarial_attacks_cx_solution.ipynb`, written with the exercise from Kangsheng's
 files by that folder's `dev/from_branch.py`, laid out like the exercise, every line a participant writes
 marked with the target sign. Colab asks for access to private GitHub repositories before it opens it:
