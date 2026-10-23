@@ -201,3 +201,18 @@ python3 -m http.server 8000
 ```
 
 Both pages need an internet connection for their fonts and, for the Sunrise Machine, the JavaScript libraries (TensorFlow.js, GSAP, D3, KaTeX) loaded from a CDN.
+
+## A dog the network takes for a cat (Saturday 09:00)
+
+An exercise in one Colab notebook, nothing to install. It draws 3000 synthetic cats and dogs, 48 x 48 pixels
+in colour, and you train a small convolutional network to tell them apart. Its last layer has only two
+neurons, so every picture becomes a point on a chart, with the dogs on one side of a line and the cats on the
+other. Then you attack the network with the fast gradient sign method: you change the picture of a dog by so
+little that nobody can see the difference, and the network says cat. You do six tasks, each marked with a
+target sign, twelve lines in all: the chart and the head of the network, the loss and the three calls of a
+training step, the gradient of the loss with respect to the pixels and the step uphill, and a loop of tiny
+steps. Every task has a hint, folded until you click it, and a cell below it that checks your lines and
+prints PASS or NOT YET; the last cell says in large letters whether you fooled the network. The exercise:
+[`adversarial-cats-dogs/adversarial_cats_dogs.ipynb`](adversarial-cats-dogs/adversarial_cats_dogs.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/adversarial-cats-dogs/adversarial_cats_dogs.ipynb
