@@ -154,6 +154,20 @@ The exercise, six tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/adversarial-cats-dogs/adversarial_cats_dogs.ipynb
 
+## Adversarial attacks on CIFAR-10 (Saturday 09:00, for the fast)
+
+Written by Kangsheng Qi, a teaching assistant, on the branch `adversarial-attack` of the private repository;
+since 2026-10-23 the follow-up to the cats and dogs on the course site. The exercise, four functions to write:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/adversarial-attacks-cifar/adversarial_attacks_cx.ipynb
+
+Its solution stays in the private repository until Carlos says otherwise, as Sofi Mousia's does:
+`adversarial-attacks-cifar/adversarial_attacks_cx_solution.ipynb`, written with the exercise from Kangsheng's
+files by that folder's `dev/from_branch.py`, laid out like the exercise, every line a participant writes
+marked with the target sign. Colab asks for access to private GitHub repositories before it opens it:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-private/blob/main/adversarial-attacks-cifar/adversarial_attacks_cx_solution.ipynb
+
 ## Keeping this list true
 
 Every notebook here is a byte-for-byte copy of its master in the course's private repository, at the same
