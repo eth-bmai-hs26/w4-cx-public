@@ -101,7 +101,8 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/te
 
 The text embedder of the text embeddings notebook and the denoiser of the happy and sad extension, put
 together as Stable Diffusion is: a word or a sentence becomes a face. The solution, the complete notebook,
-which also holds answers of the three exercises it builds on:
+which also holds answers of the three exercises it builds on, laid out like the exercise, every line a
+participant writes still marked with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion_solutions.ipynb
 
