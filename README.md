@@ -140,6 +140,23 @@ five lines in all, the lines that make it Stable Diffusion: the cut of the promp
 text embedder reading the captions once, a caption of its own expression for each face, and the text embedder's
 step in front of the generation. Training takes well under a minute.
 
+## Stable Diffusion: your own sampling loop (Friday 14:00)
+
+An exercise in one Colab notebook, written by Sofi Mousia:
+[`cx4_stable_diffusion.ipynb`](cx4_stable_diffusion.ipynb), in Colab at
+
+    https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/cx4_stable_diffusion.ipynb
+
+The notebooks above build diffusion models small enough to train in under a minute. This one uses the real
+one, Stable Diffusion 1.5 with its pretrained weights, through the `diffusers` library, and takes its pipeline
+apart: the text encoder turns the prompt into embeddings, the UNet predicts the noise in a latent of
+4 x 64 x 64 numbers, the scheduler takes one step, and the VAE decodes the last latent into a picture of
+512 x 512 pixels. You write the sampling loop yourself, ten one-line gaps, each marked with a target sign and
+most with a hint: the text embeddings, the starting noise, classifier-free guidance, the scheduler's step and
+the decoding, then a sweep over the guidance scale and over the number of steps, a check of your loop against
+the official pipeline, and a bonus that shows the picture appearing step by step. It needs a GPU runtime (the
+notebook asks Colab for a T4) and downloads 4.3 GB of weights; after that a picture takes a few seconds.
+
 ## Face aging (Friday 11:00)
 
 An exercise in one Colab notebook. You lead product at a photo app that wants a "show me at 70" button. A photo is

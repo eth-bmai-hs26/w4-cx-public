@@ -104,6 +104,20 @@ The exercise, four tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
 
+## Stable Diffusion: your own sampling loop (Friday 14:00)
+
+Written by Sofi Mousia: the real Stable Diffusion 1.5, pretrained, with its sampling loop written by hand.
+The solution, the complete notebook, with the pictures of her own run on a Colab T4:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/cx4_stable_diffusion_sol.ipynb
+
+The exercise, ten one-line gaps:
+
+https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/cx4_stable_diffusion.ipynb
+
+Not on the private repository's main: both masters are on its branch `stableDiff`, at the same paths. Never
+merge that branch, which deletes `vae_sunrises/`.
+
 ## Face aging with your own VAE (Friday 14:30)
 
 The solution, the complete notebook:
