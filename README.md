@@ -220,14 +220,16 @@ prints PASS or NOT YET; the last cell says in large letters whether you fooled t
 ## Adversarial attacks on CIFAR-10 (Saturday 09:00, for the fast)
 
 Written by Kangsheng Qi, a teaching assistant: the follow-up to the cats and dogs for whoever finishes early.
-A small convolutional network trained beforehand on CIFAR-10, real photos of 32 x 32 pixels in ten classes, is
-loaded with its weights, and you write four functions, each line marked with a target sign and a TODO, with
-hints above them: the fast gradient sign method, its targeted version, which pushes a picture towards a class
-you choose, projected gradient descent, many small steps that never leave the budget, and adversarial
-training, which retrains a copy of the network on attacked pictures and compares it with the original. The
-notebook downloads the network (`cifar_cnn.pth`, in this folder) and the pictures (from the copy of CIFAR-10
-on Hugging Face) by itself. Run it on a GPU, which the notebook asks Colab for: on a T4 the whole notebook
-takes about four minutes, and without a GPU the adversarial training alone takes the better part of an hour.
+You are trust and safety lead at a classifieds marketplace, and a small convolutional network trained
+beforehand on CIFAR-10, real photos of 32 x 32 pixels in ten classes, stands for the photo classifier you
+bought. You attack it the way a dishonest seller would, in five parts, and write the deciding lines of four
+functions, each with a folded hint and a check cell that says PASS or NOT YET: the fast gradient sign method,
+its targeted version, which pushes a picture towards a class you choose, projected gradient descent, many
+small steps that never leave the budget, and adversarial training, which retrains a copy of the network on
+attacked pictures and compares it with the original. The notebook downloads the network (`cifar_cnn.pth`, in
+this folder) and the pictures (from the copy of CIFAR-10 on Hugging Face) by itself. Run it on a GPU, which
+the notebook asks Colab for: on a T4 the whole notebook takes a few minutes, and without a GPU the
+adversarial training alone takes the better part of an hour.
 The exercise:
 [`adversarial-attacks-cifar/adversarial_attacks_cx.ipynb`](adversarial-attacks-cifar/adversarial_attacks_cx.ipynb),
 in Colab at
