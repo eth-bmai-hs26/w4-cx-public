@@ -104,7 +104,7 @@ The exercise, four tasks:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/tiny-stable-diffusion/tiny_stable_diffusion.ipynb
 
-## Stable Diffusion: your own sampling loop (Friday 14:00)
+## Stable diffusion (Friday 14:00, the last exercise of the slot)
 
 Written by Sofi Mousia: the real Stable Diffusion 1.5, pretrained, with its sampling loop written by hand.
 The exercise, ten one-line gaps:

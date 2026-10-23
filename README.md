@@ -140,7 +140,7 @@ five lines in all, the lines that make it Stable Diffusion: the cut of the promp
 text embedder reading the captions once, a caption of its own expression for each face, and the text embedder's
 step in front of the generation. Training takes well under a minute.
 
-## Stable Diffusion: your own sampling loop (Friday 14:00)
+## Stable diffusion (Friday 14:00, the last exercise of the slot)
 
 An exercise in one Colab notebook, written by Sofi Mousia:
 [`cx4_stable_diffusion.ipynb`](cx4_stable_diffusion.ipynb), in Colab at
