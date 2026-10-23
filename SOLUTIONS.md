@@ -29,7 +29,8 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/pu
 
 ## Sunrise CNN (Friday 08:15)
 
-The solution, the complete notebook:
+The solution, the complete notebook, laid out like the exercise, every line a participant writes still
+marked with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/sunrise-cnn/sunrise_time_regression_solutions.ipynb
 
@@ -43,7 +44,8 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/su
 
 ## Two grasshoppers fit a line (Friday 08:15)
 
-The solution, the complete notebook:
+The solution, the complete notebook, laid out like the exercise, every line a participant writes still
+marked with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/grasshopper-gradient-descent/grasshopper_gradient_descent_solutions.ipynb
 
@@ -84,7 +86,8 @@ Every word of the extension's thirty sentences gets two numbers of its own, a se
 and a wide network turns it into three numbers; the words land in three groups and the sentences in three
 clusters.
 
-The solution, the complete notebook:
+The solution, the complete notebook, laid out like the exercise, every line a participant writes still
+marked with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/text-embeddings/text_embeddings_solutions.ipynb
 
