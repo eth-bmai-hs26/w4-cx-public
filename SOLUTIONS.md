@@ -61,7 +61,8 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/ap
 
 ## Happy and sad faces from noise (Friday 14:00)
 
-The solution, the complete notebook:
+The solution, the complete notebook, laid out like the exercise, every line a participant writes still
+marked with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_solutions.ipynb
 
@@ -72,7 +73,8 @@ https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/ha
 ## Three faces and BERT, the extension (Friday 14:00, after the happy and sad exercise)
 
 A third face, a one-hot prompt, and a sentence read by BERT. The solution, the complete notebook, which also
-holds the first exercise's answers:
+holds the first exercise's answers, laid out like the exercise, every line a participant writes still marked
+with the target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/happy-sad-diffusion/happy_sad_diffusion_extension_solutions.ipynb
 
