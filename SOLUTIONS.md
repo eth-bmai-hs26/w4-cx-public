@@ -134,12 +134,13 @@ Not at the same path in the private repository: the masters are `aging/face_agin
 `aging/face_aging_vae.ipynb`, both built by `aging/scripts/build_vae_notebooks.py`, and `pipeline.gif` is
 `aging/figures/pipeline.gif`, drawn by `aging/scripts/draw_pipeline_doodle.py`.
 
-## A dog the network takes for a cat (Saturday 09:00, a prototype)
+## A dog the network takes for a cat (Saturday 09:00)
 
-The prototype of 2026-10-23 for the adversarial attacks exercise, built from Carlos's teaching plan for the
-08:15 lecture; the course site does not link it yet. Its plan, the measurements and the decisions still open
-are in the README of `adversarial-cats-dogs/` in the private repository. The solution, the complete notebook,
-laid out like the exercise, every line a participant writes still marked with the target sign:
+The adversarial attacks exercise of 2026-10-23, built from Carlos's teaching plan for the 08:15 lecture; the
+course site links the exercise since the same evening, never this solution. Its plan, the measurements and the
+decisions still open are in the README of `adversarial-cats-dogs/` in the private repository. The solution,
+the complete notebook, laid out like the exercise, every line a participant writes still marked with the
+target sign:
 
 https://colab.research.google.com/github/eth-bmai-hs26/w4-cx-public/blob/main/adversarial-cats-dogs/adversarial_cats_dogs_solutions.ipynb
 
